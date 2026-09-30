@@ -18,7 +18,7 @@ GitHub Actions sestavuje hru pro každý commit.
 Tyto odkazy slouží ke stažení sestavení nejnovější verze:
 
 
-| Platform | Release | Debug |
+| Platforma | Varianta | Debug |
 | --- | --- | --- |
 | Linux | [halo-linux-release.zip](https://github.com/cybersecurity/halo-ce-universal/releases/latest/download/halo-linux-release.zip) | [halo-linux-debug.zip](https://github.com/cybersecurity/halo-ce-universal/releases/latest/download/halo-linux-debug.zip) |
 | Windows | [halo-windows-release.zip](https://github.com/cybersecurity/halo-ce-universal/releases/latest/download/halo-windows-release.zip) | [halo-windows-debug.zip](https://github.com/cybersecurity/halo-ce-universal/releases/latest/download/halo-windows-debug.zip) |
