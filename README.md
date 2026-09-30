@@ -29,7 +29,7 @@ assertion and writes it to the log. Debug sestavení používejte k hledání
 a nahlašování chyb.
 
 Hra se sama aktualizuje. Jakmile se spustí, začne hledat aktualizaci, a zeptá se
-jestli ji chcete nainstalovat. Referujte k
+jestli ji chcete nainstalovat. Viz
 [port/linux/README.md](port/linux/README.md#updates).
 
 Každé sestavení `main`který je na všech třech platformách je nové vydání.
@@ -52,7 +52,7 @@ aby hráči těchto dvou verzí mohli hrát spolu.
 Na Linuxu a Windowsu, hra dá `maps/` vedle spustitelného souboru. Na
 Androidu, nejdřív zkopírujte váš obraz do telefonu. Aplikace dá složku maps `maps/`
 do své složky "data".
-Referujte k [port/android/README.md](port/android/README.md).
+Viz [port/android/README.md](port/android/README.md).
 
 ## Platformy
 
