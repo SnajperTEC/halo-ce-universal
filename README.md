@@ -58,7 +58,7 @@ Referujte k [port/android/README.md](port/android/README.md).
 
 Každá platforma má své vlastní instrukce:
 
-| Platform | Instructions |
+| Platforma | Instrukce |
 | --- | --- |
 | Linux (32-bitový x86 spustelný soubor, OpenGL 4.5, SDL3) | [port/linux/README.md](port/linux/README.md) |
 | Windows (32-bitový x86 spustelný soubor, OpenGL 4.5, SDL3) | [port/windows/README.md](port/windows/README.md) |
@@ -78,40 +78,39 @@ Hra může spojit relace na lokální síti a internetu.
   a hostitel rozhoduje o nastavení. Referujte k
   [port/linux/NETCODE.md](port/linux/NETCODE.md).
 
-## Build the game
+## Sestavení hry
 
-You do not need the Xbox SDK. The port supplies the SDK declarations that
-the game uses. Refer to [port/include/xdk](port/include/xdk/README.md).
+Xbox SDK není potřeba.
+Port poskytuje deklarace SDK, které hra používá. Viz [port/include/xdk](port/include/xdk/README.md).
 
-To build the game:
+Pro sestavení hry:
 
-1. Install Python and [ninja](https://ninja-build.org/).
-2. Install the tools for your platform. Refer to the README for the
-   platform.
-3. In the root folder of the repository, enter `python configure.py`.
-4. Enter `ninja` with the target for the platform:
+1. Nainstalujte Python a [ninja](https://ninja-build.org/).
+2. Nainstalujte nástroje pro vaši platformu. viz "README" (soubor přečti mě)
+pro vaši platformu
+4. V kořenové složce repozitáře, zadejte `python configure.py`.
+5. zadejte `ninja` s cílem pro platformu:
 
-| Target | Result |
+| Cíl | Výsledek |
 | --- | --- |
 | `ninja linux` | `build/linux/halo` |
-| `ninja windows` (on Windows) | `build/windows/halo.exe` and `SDL3.dll` |
+| `ninja windows` (na Windowsu) | `build/windows/halo.exe` a `SDL3.dll` |
 | `ninja android_apk` | `port/android/app/build/outputs/apk/debug/app-debug.apk` |
 
-If you enter `ninja` without a target, ninja builds the game for the
-computer that you use.
+Pokud zadáte `ninja` bez cíle, ninja sestaví hru pro váš počítač.
 
-`tools/ci_build.py` makes the same builds as GitHub Actions. For example,
-enter `python tools/ci_build.py linux release`.
+`tools/ci_build.py` sestaví stejnou hru jako GitHub Actions. Pro příklad,
+zadejte `python tools/ci_build.py linux release`.
 
-### Build options
+### Možnosti sestavení
 
-Give these options to `configure.py`:
+Tyto možnosti dejte `configure.py`:
 
-| Option | Result |
+| Možnost | Výsledek |
 | --- | --- |
-| (none) | A debug build. A failed assertion stops the game. |
-| `--release` | A release build. The game does not examine assertions, as in the retail game. |
-| `--portable` | The Linux and Windows builds operate on all x86-64 processors. Use this option for builds that you give to other persons. |
+| (nic) | Debug sestavení. Neúspěšné tvrzení zastaví hru. |
+| `--release` | Sestavení k vydání. Hra nekontroluje tvrzení, jako prodávaná hra. |
+| `--portable` | Verze pro Linux a Windows fungují na všech x86-64 procesorech. Tuto možnost používejte pro sestavení, které dáváte ostatním lidem. |
 | `--lto=thin`, `--lto=off` | Less link-time optimization. The link is faster. |
 | `--pgo=off` | No profile-guided optimization. |
 | `--pgo=train` | Records a new optimization profile. Refer to "Optimization profiles". |
