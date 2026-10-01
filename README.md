@@ -41,7 +41,7 @@ sestavení z této stránky.
 
 Tento port neobsahuje data hry. Stáhněte si diskový obraz Xbox
 (`.xiso` or `.iso`) hry Halo: Combat Evolved. Všechny verze hry fungují.
-Mapy evropské verze (PAL) byly vytvořeny pro starší konzoli.
+Mapy evropské verze (PAL) byly vytvořeny pro pomalejší konzoli.
 Tento port je změní, aby fungovaly jako severo Americké (NTSC) mapy,
 aby hráči těchto dvou verzí mohli hrát spolu.
 
