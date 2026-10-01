@@ -1,6 +1,6 @@
 # Halo: Combat Evolved pro Linux, Windows a Android
 PLEASE NOTE I AM NOT THE OWNER AND THIS FORK IS PURELY A TRANSLATION TO THE CZECH LANGUAGE!!
-[![Join our Discord](https://invidget.switchblade.xyz/9gqcHyr5km)](https://discord.gg/9gqcHyr5km)
+[![Přpojte se na náš Discord](https://invidget.switchblade.xyz/9gqcHyr5km)](https://discord.gg/9gqcHyr5km)
 
 Tento projekt je port dekompilace Halo: Combat Evolved pro Linux,
 Windows and Android. Je to dekompilace Xbox build 2342
