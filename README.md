@@ -1,5 +1,5 @@
 # Halo: Combat Evolved pro Linux, Windows a Android
-NEJSEM MAJITEL A TENTO FORK JE POUZE PŘEKLAD!!!! 
+NEJSEM MAJITEL A TENTO FORK JE POUZE PŘEKLAD!!!!
 Odkaz na originální repo: https://github.com/cybersecurity/halo-ce-universal
 [![Přpojte se na náš Discord](https://invidget.switchblade.xyz/9gqcHyr5km)](https://discord.gg/9gqcHyr5km)
 
