@@ -15,7 +15,7 @@ Ten projekt je fork tohoto projektu [punpckhdq/halo](https://github.com/punpckhd
 ## Stažení
 
 GitHub Actions sestavuje hru pro každý commit.
-Tyto odkazy slouží ke stažení sestavení nejnovější verze:
+Tyto odkazy slouží ke stažení nejnovější verze:
 
 
 | Platforma | Vydání | Debug |
@@ -119,22 +119,21 @@ Without `--portable`, the Linux and Windows builds use all the instructions
 of the processor that builds them (`-march=native`). Such a build does not
 always start on a different computer.
 
-### Optimization profiles
+### Profily optimizace
 
-The builds use profiles of the game to optimize the code:
+Sestavení používají profily hry k optimizaci kódu:
 
-- `pgo/halo_linux.profdata` for Linux and Android.
-- `pgo/halo_windows.profdata` for Windows.
+- `pgo/halo_linux.profdata` pro Linux a Android.
+- `pgo/halo_windows.profdata` pro Windows.
 
-The profiles need clang 22 or later. With an older clang, the builds do not
-use the profiles.
+Profily vyžadují clang 22 nebo novější. Se starším clangem, sestavení
+nebudou používat profily.
 
-To record a new profile:
+Pokud chcete nahrát nový profil:
 
-1. Delete the profile.
-2. Enter `python configure.py --pgo=train`.
-3. Enter `ninja linux` or `ninja windows`.
-
-The build then plays the main menu and the first minute of each campaign
-level. This procedure continues for approximately 15 minutes. The game
-data must be in `assets/`.
+1. Smažte profil.
+2. Zadejte `python configure.py --pgo=train`.
+3. Zadejte `ninja linux` or `ninja windows`.
+Sestavení potom spustí hlavní menu a první minutu
+každého levelu v kampaňi. Tato procedura zabere kolem patnácti minut.
+Data hry musí být v `assets/`.
