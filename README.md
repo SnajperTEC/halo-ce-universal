@@ -1,5 +1,6 @@
 # Halo: Combat Evolved pro Linux, Windows a Android
-PLEASE NOTE I AM NOT THE OWNER AND THIS FORK IS PURELY A TRANSLATION TO THE CZECH LANGUAGE!!
+NEJSEM MAJITEL A TENTO FORK JE POUZE PŘEKLAD!!!! 
+Odkaz na originální repo: https://github.com/cybersecurity/halo-ce-universal
 [![Přpojte se na náš Discord](https://invidget.switchblade.xyz/9gqcHyr5km)](https://discord.gg/9gqcHyr5km)
 
 Tento projekt je port dekompilace Halo: Combat Evolved pro Linux,
